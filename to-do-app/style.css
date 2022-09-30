@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    background-color: #efefef;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #424242;
+    color: white;
+    padding: 16px;
+}
+
+
+.input-area {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    padding: 8px 2px;
+    background-color: burlywood;
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 32px;
+    border-bottom: 2px solid lightgray;
+}
+
+.input-area-in {
+    display: flex;
+    justify-content: center;
+}
+
+.input-area-in input {
+    outline: none;
+    border: 2px solid #424242;
+    width: 360px;
+    height: 48px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 8px 16px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.input-area-in button {
+    outline: none;
+    border: 2px solid #424242;
+    width: 48px;
+    height: 48px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: #424242;
+    cursor: pointer;
+
+}
+
+
+.to-do-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.to-do {
+    margin-right: 128px;
+    background-color: white;
+    border-radius: 12px;
+    width: 459px;
+}
+
+.completed {
+    background-color: white;
+    border-radius: 12px;
+    width: 459px;
+
+
+}
+
+h2 {
+    padding: 6px 12px;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.to-do-h2 {
+    background-color: orange;
+}
+
+.completed-h2 {
+    background-color: olivedrab;
+}
+
+
+ul li {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+ul li textarea {
+    resize: none;
+    width: 333px;
+    height: 64px;
+    margin: 0 8px;
+    outline: none;
+    border: 2px solid #424242;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 18px;
+    overflow: none;
+    cursor: pointer;
+}
+
+ul li textarea::-webkit-scrollbar {
+    display: none;
+    visibility: visible;
+    opacity: 0;
+}
+
+ul li textarea:hover {
+    border: 3px solid burlywood;
+}
+
+ul li button {
+    font-size: 42px;
+    background: none;
+    color: #424242;
+    text-align: center;
+    margin: 0 2px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+ul li button:hover {
+    color: burlywood;
+}

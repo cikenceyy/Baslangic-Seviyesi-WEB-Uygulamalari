@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #424242;
+    color: white;
+    padding: 32px;
+    border-radius: 32px;
+}
+
+h1 {
+    font: 64px;
+    margin-bottom: 64px;
+}
+
+form {
+    margin-bottom: 41px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+}
+
+input {
+    outline: none;
+    padding: 4px 12px;
+    margin-left: 32px;
+    height: 32px;
+    width: 196px;
+}
+
+form .button-group {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    outline: none;
+    appearance: none;
+    background-color: white;
+    color: #424242;
+    border: 1px solid #424242;
+    border-radius: 8px;
+    height: 32px;
+    width: 80px;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+button:hover {
+    background-color: white;
+    color: #424242;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+
+
+.result {
+    text-align: center;
+    margin-bottom: 64px;
+    font-size: 26px;
+}
+
+.result-bmi {
+    font-size: 22px;
+}
+
+.result-info {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid gray;
+    padding: 8px;
+
+}
+
+.result-info-item {
+    margin-right: 32px;
+}

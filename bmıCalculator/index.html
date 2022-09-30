@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator by:Cikencey</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>VKİ Hesaplama</h1>
+
+        <form id="bmıForm">
+            <table>
+                <tr>
+                    <td>Boyunuz:</td>
+                    <td><input type="number" placeholder="cm" id="cm"></td>
+                </tr>
+                <tr>
+                    <td>Kilonuz:</td>
+                    <td>
+                        <input type="number" placeholder="kg" id="kg">
+                    </td>
+                </tr>
+            </table>
+            <div class="button-group">
+                <button type="submit">Hesapla</button>
+                <button type="reset">Resetle</button>
+            </div>
+        </form>
+
+        <div class="result">
+            Vucut Kitle İndeksiniz:
+            <div class="result-bmi">
+                form ile hesapla.. </div>
+        </div>
+
+        <div class="result-info">
+            <div class="result-info-item">
+                Zayıf <br>18.5
+            </div>
+            <div class="result-info-item">
+                Normal <br>18.5 - 25
+            </div>
+            <div class="result-info-item">
+                Fazla Kilolu <br>25 - 30
+            </div>
+            <div class="result-info-item">
+                Aşırı Kilolı <br>+30
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
