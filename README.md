@@ -23,5 +23,13 @@ HTML CSS Javascript kullanılarak yapılan, basit seviyede uygulamalar.
   
   
 
-# Api den gelen data ile rastegele alıntı gösterme.
+## Api den gelen data ile rastegele alıntı gösterme.
 ![randomQuotes](https://user-images.githubusercontent.com/111642879/193290580-ebcf9f66-78dc-4838-aa2f-48766efe6502.png)
+
+
+
+
+## Sayı Tahmin Oyunu
+
+![guessingNumberGame-1](https://user-images.githubusercontent.com/111642879/193360697-4737a7f3-582d-480f-a94d-a40f6bf5bede.png)
+![guessingNumberGame-3](https://user-images.githubusercontent.com/111642879/193360703-e765db26-1181-4ad8-ad7c-ac0438f3d88e.png)
