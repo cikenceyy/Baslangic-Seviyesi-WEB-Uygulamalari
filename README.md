@@ -14,9 +14,9 @@ HTML CSS Javascript kullanılarak yapılan, basit seviyede uygulamalar.
 
 
 ## TO DO APP
-  new to do add
-  to do change
-  to do delete
+  new to do add, 
+  to do check, 
+  to do delete, 
   to do statu change
   ![to-do-app](https://user-images.githubusercontent.com/111642879/193290485-4319abf2-5aa1-45b3-8bba-b78def68cd25.png)
   
